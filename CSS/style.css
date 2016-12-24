@@ -7,12 +7,13 @@ p{
 hr {
     margin-top: -21px;
     margin-bottom: -12px;
+    width: 99%;
 }
 h1{
   font-size: 3.5em;
 }
 h2 {
-  font-size: 1.8em;
+  font-size: 1.88em;
   margin-top: -33px;
 }
 div#contedorUno{
@@ -78,4 +79,21 @@ span#botonAbajo {
     margin-left: -41px;
     transition: .2s;
     color: #ffffff;
+}
+div#contedorDos {
+    width: 100%;
+    max-width: 840px;
+    margin: auto;
+    color: #ffffff;
+    z-index: 4;
+    position: relative;
+    text-align: center;
+    margin-top: -33px;
+}
+
+#segundaFullpage{
+  background: url(../IMG/team.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom -280px;
 }
