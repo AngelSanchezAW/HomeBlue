@@ -86,6 +86,6 @@ $(document).ready(function() {
 
 }
   window.onload = function() {
-    setInterval(muestraReloj, 1000);
+    setInterval(muestraReloj, 1);
   }
 // Animación botonAbajo

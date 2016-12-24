@@ -26,6 +26,9 @@ div#contedorUno{
   margin-top: -130px;
 
 }
+div#sectionUno{
+  text-align: center;
+}
 video {
     position: absolute;
     min-width: 100%;
@@ -73,5 +76,6 @@ span#botonAbajo {
     font-size: 83px;
     transform: scale(1);
     margin-left: -41px;
-    transition: .05s;
+    transition: .2s;
+    color: #ffffff;
 }
