@@ -71,3 +71,21 @@ $(document).ready(function() {
   });
 });
 // fullPage
+
+// Animación botonAbajo
+  function muestraReloj() {
+    var fechaHora = new Date();
+    var segundos = fechaHora.getSeconds();
+    if(segundos < 10) { segundos = '0' + segundos; }
+
+    if (segundos%2==0) {
+       document.getElementById("botonAbajo").style.transform = "scale(1)"
+    } else {
+       document.getElementById("botonAbajo").style.transform = "scale(1.5)"
+    }
+
+}
+  window.onload = function() {
+    setInterval(muestraReloj, 1000);
+  }
+// Animación botonAbajo

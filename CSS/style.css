@@ -1,11 +1,19 @@
 *{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+}
+p{
+  font-size: 16px;
+}
+hr {
+    margin-top: -21px;
+    margin-bottom: -12px;
 }
 h1{
-  font-size: 3em;
+  font-size: 3.5em;
 }
 h2 {
-    margin-top: -33px;
+  font-size: 1.8em;
+  margin-top: -33px;
 }
 div#contedorUno{
   width: 100%;
@@ -26,7 +34,7 @@ video {
     left: 50%;
     transform: translateX(-50%) translateY(-58%);
     z-index: 1;
-    opacity: .4;
+    opacity: .1;
 }
 bottom {
     background: orange;
@@ -63,5 +71,7 @@ span#botonAbajo {
     position: fixed;
     bottom: 0px;
     font-size: 83px;
+    transform: scale(1);
     margin-left: -41px;
+    transition: .05s;
 }
