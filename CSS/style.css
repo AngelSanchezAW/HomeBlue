@@ -27,9 +27,34 @@ video {
     z-index: 1;
     opacity: .2;
 }
-
 bottom {
     background: orange;
     padding: 13px;
     border-radius: 2px;
+}
+div#nav{
+  margin-left: 50px;
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+  max-width: 1200px;
+  /*background: red;*/
+  z-index: 5;
+}
+div#divmenu{
+  float: right;
+  margin-right: -10px;
+}
+div#logo {
+    float: left;
+    padding: 10px;
+}
+div#logo img{
+    width: 170px;
+}
+div#divmenu p#menu{
+  display: inline-block;
+  /*background: blue;*/
+  padding: 10px;
+  color: #ffffff;
 }
