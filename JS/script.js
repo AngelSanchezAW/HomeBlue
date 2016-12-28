@@ -48,7 +48,7 @@ $(document).ready(function() {
       //Diseno
       controlArrows: true,
       verticalCentered: true,
-      sectionsColor : ['#202020', '#181818'],
+      sectionsColor : ['#202020','rgb(21, 51, 51)','#181818','#009688'],
       paddingTop: '3em',
       paddingBottom: '10px',
       fixedElements: '#header, .footer',
@@ -89,3 +89,28 @@ $(document).ready(function() {
     setInterval(muestraReloj, 1);
   }
 // Animación botonAbajo
+
+function exefunction(){
+  var precio = document.getElementById("c1").checked;
+  if (precio == true) {
+    var cantidad = 10;
+    var camMoneda = '<p style="color: #0088cc;margin-bottom: 10px;margin-top: -10px; font-size: 25px;"><img id="pais" src="https://www.azulweb.net/membresia/img/usd.png"/> USD$</p>'
+    var i;
+    for (var i = 0; i < 3; i++) {
+      document.getElementById("precio"+i).innerHTML = "<p id='precio'>$"+cantidad+"</p>";
+      document.getElementById("moneda"+i).innerHTML = camMoneda;
+      cantidad = cantidad + 5;
+    }
+
+  } else {
+    var cantidad = 180;
+    var camMoneda = '<p style="color: #0088cc;margin-bottom: 10px;margin-top: -10px; font-size: 25px;"><img id="pais" src="https://www.azulweb.net/membresia/img/mxn.png"/> MXN$</p>'
+    var i;
+    for (var i = 0; i < 3; i++) {
+      document.getElementById("precio"+i).innerHTML = "<p id='precio'>$"+cantidad+"</p>";
+      document.getElementById("moneda"+i).innerHTML = camMoneda;
+      cantidad = cantidad + 90;
+    }
+
+  }
+}

@@ -97,3 +97,121 @@ div#contedorDos {
   background-repeat: no-repeat;
   background-position: center bottom -280px;
 }
+
+/*COMPRAR*/
+.flex-container-planes {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+.flex-comprar-1 {
+    background-color: #efefef;
+    width: 400px;
+    height: 325px;
+    margin: 2px;
+    text-align: center;
+    box-shadow: 0px 0px 1px 1px #c7c7c7;
+    border-radius: 2px;
+}
+.flex-itemm-2 {
+    background-color: #FAFAFA;
+    width: 400px;
+    height: 345px;
+    margin-top: -10px;
+      margin-left: -5px;
+  margin-right: -5px;
+    text-align: center;
+    box-shadow:0px 0px 7px 1px #737373;
+      z-index: 10;
+        border-radius: 2px;
+}
+.flex-itemm-3 {
+    background-color: #efefef;
+    width: 400px;
+    height: 325px;
+    margin: 2px;
+    text-align: center;
+    box-shadow: 0px 0px 1px 1px #c7c7c7;
+      border-radius: 2px;
+}
+
+#precio{
+  font-size: 120px;
+  font-weight: bold;
+  color: #0088cc;
+  margin-bottom: -19px;
+    margin-top: -29px;
+}
+
+#comprar{
+  background: #0088cc;
+  color: #ffffff;
+  width: 200px;
+  margin: auto;
+  padding: 15px;
+  font-weight: bold;
+ border-radius: 2px;
+     margin-top: 10px;
+
+}
+#comprar:hover{
+  background: #01689b;
+}
+.flex-container-planes a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.tituloPrecio{
+  margin: 20px;
+}
+
+img#pais {
+    width: 20px;
+    height: 20px;
+    border-radius: 48px;
+}
+
+p#ben{
+    display: initial;
+    background: #0480ff;
+    margin-left: 13px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 148px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 45px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+    border-radius: 3px;
+}
+
+p#ben:hover {
+    background: #064a90;
+}
+div#otrosPaises {
+    float: left;
+    margin-top: 20px;
+    background: #FF9800;
+    color: #ffffff;
+    padding: 10px;
+    /* border-radius: 2px; */
+    border: solid 1px #ad6700;
+    cursor: pointer;
+    margin-left: 84px;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+input[type="checkbox"] + label{
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label {
+    background: rgba(202, 120, 2, 0.53);
+    padding: 6px;
+    /* padding-left: 6px; */
+    /* margin: 0px; */
+}
