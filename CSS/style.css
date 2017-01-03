@@ -1,6 +1,10 @@
 *{
   font-family: 'PT Sans', sans-serif;
 }
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
 p{
   font-size: 16px;
 }
@@ -41,29 +45,33 @@ bottom {
     padding: 13px;
     border-radius: 2px;
 }
+div#contenedorNav{
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  background: red;
+  z-index: 5;
+  background: rgba(49, 49, 49, 0.66);
+}
 div#nav{
   margin-left: 50px;
   padding: 5px;
-  position: fixed;
   width: 100%;
   max-width: 1200px;
-  /*background: red;*/
-  z-index: 5;
 }
 div#divmenu{
   float: right;
-  margin-right: -10px;
 }
 div#logo {
     float: left;
     padding: 10px;
+    margin-top: 8px;
 }
 div#logo img{
     width: 170px;
 }
 div#divmenu p#menu{
   display: inline-block;
-  /*background: blue;*/
   padding: 10px;
   color: #ffffff;
 }
@@ -97,12 +105,12 @@ div#contedorDos {
 /*COMPRAR*/
 .flex-container-planes {
     display: flex;
-    max-width: 1200px;
+    max-width: 980px;
     margin: auto;
 }
 .flex-comprar-1 {
     background-color: #efefef;
-    width: 400px;
+    width: 350px;
     height: 325px;
     margin: 2px;
     text-align: center;
@@ -111,7 +119,7 @@ div#contedorDos {
 }
 .flex-itemm-2 {
     background-color: #FAFAFA;
-    width: 400px;
+    width: 350px;
     height: 345px;
     margin-top: -10px;
       margin-left: -5px;
@@ -123,7 +131,7 @@ div#contedorDos {
 }
 .flex-itemm-3 {
     background-color: #efefef;
-    width: 400px;
+    width: 350px;
     height: 325px;
     margin: 2px;
     text-align: center;
@@ -195,7 +203,8 @@ div#otrosPaises {
     /* border-radius: 2px; */
     border: solid 1px #ad6700;
     cursor: pointer;
-    margin-left: 84px;
+    margin-left: 196px;
+    margin-top: 19px;
 }
 
 input[type="checkbox"] {

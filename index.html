@@ -14,13 +14,15 @@
   <title>Membresía Azul Web</title>
 </head>
 <body>
-  <div id="nav">
-    <div id="logo"><img src="https://www.azulweb.net/wp-content/uploads/2014/02/Logo-Blanco.png" alt="logo"></div>
-    <div id="divmenu">
-    <p id="menu">Hazte socio/a</p>
-    <p id="menu">¿Qué es?</p>
-    <p id="menu">¿Qué ofrece?</p>
-    <p id="menu">Preguntas frecuentes</p>
+  <div id="contenedorNav">
+    <div id="nav">
+      <div id="logo"><img src="https://www.azulweb.net/wp-content/uploads/2014/02/Logo-Blanco.png" alt="logo"></div>
+      <div id="divmenu">
+      <a href="#membresia"><p id="menu">Hazte socio/a</p></a>
+      <p id="menu">¿Qué es?</p>
+      <p id="menu">¿Qué ofrece?</p>
+      <p id="menu">Preguntas frecuentes</p>
+      </div>
     </div>
   </div>
   <div  id="fullpage">
@@ -30,9 +32,9 @@
           <hr>
           <p style="color: #b3b3b3;"><i>Con tu ayuda podremos seguir creando contenido de calidad. Tu apoyo nos anima a seguir a delante.</i></p>
           <br>
-          <bottom>¡Quiero apoyar al proyecto!</bottom>
+          <a href="#membresia"><bottom>¡Quiero apoyar al proyecto!</bottom></a>
           <br>
-          <a href="#secondPage"><span id="botonAbajo" class="icon-expand_more"></span></a>
+          <a href="#membresia"><span id="botonAbajo" class="icon-expand_more"></span></a>
         </div>
       </div>
       <div class="section">
@@ -66,16 +68,13 @@
           </div>
           </div>
           <br>
+          <script>
+          function abrir(url) {
+          open(url,'','width=420,height=350') ;
+          }
+          </script>
 <div id="otrosPaises"><input type="checkbox" id="c1" name="cc" onclick="exefunction()"><label for="c1">Precio para otros países</label></div>
-<div style="text-align:right;"><h3 style="
-    background: red;
-    width: 471px;
-    padding: 10px;
-    float: right;
-    margin-right: 85px;
-    color: #ffffff;
-    cursor: pointer;
-">Pagos en Oxxo, 7-Eleven, transferencia bancaria o depósito</h3></div>
+<a href="javascript:abrir('metodos-de-pago.html')"><div style="text-align:right;"><h3 style=" background: red; width: 471px; padding: 10px; float: right; margin-right: 195px; color: #ffffff; cursor: pointer;">Pagos en Oxxo, 7-Eleven, transferencia bancaria o depósito</h3></div></a>
       </div>
       <div class="section" id="segundaFullpage">
         <div style="width: 100%; max-width: 840px; margin: auto; color: #ffffff; text-align: center;"><h2 style="font-size: 53px; margin-top: -114px;">¿Qué son las membresías Azul Web?</h2></div>

@@ -48,7 +48,7 @@ $(document).ready(function() {
       //Diseno
       controlArrows: true,
       verticalCentered: true,
-      sectionsColor : ['#202020','rgb(21, 51, 51)','#181818','#009688'],
+      sectionsColor : ['#202020','rgb(199, 199, 199)','#181818','#009688'],
       paddingTop: '3em',
       paddingBottom: '10px',
       fixedElements: '#header, .footer',
