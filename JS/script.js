@@ -4,7 +4,7 @@ $(document).ready(function() {
       //Navegación
       menu: '#menu',
       lockAnchors: false,
-      anchors:['firstPage', 'secondPage'],
+      anchors:['home', 'membresia','que-es','que-ofrece','preguntas'],
       navigation: false,
       navigationPosition: 'right',
       navigationTooltips: ['firstSlide', 'secondSlide'],

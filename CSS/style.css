@@ -5,9 +5,13 @@ p{
   font-size: 16px;
 }
 hr {
-    margin-top: -21px;
-    margin-bottom: -12px;
-    width: 99%;
+    margin-top: -29px;
+    margin-bottom: 5px;
+    border: 0px;
+    width: 50px;
+    height: 4px;
+    background: #3b8dbd;
+    border-color: #3b8dbd;
 }
 h1{
   font-size: 3.5em;
@@ -25,20 +29,12 @@ div#contedorUno{
   position: relative;
   text-align: center;
   margin-top: -130px;
-
 }
 div#sectionUno{
   text-align: center;
-}
-video {
-    position: absolute;
-    min-width: 100%;
-    min-height: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-58%);
-    z-index: 1;
-    opacity: .1;
+  background-color: red;
+  background-image: url(../IMG/fondo.jpg);
+  background-size: 100%;
 }
 bottom {
     background: orange;
