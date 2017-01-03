@@ -107,6 +107,7 @@ div#contedorDos {
     display: flex;
     max-width: 980px;
     margin: auto;
+    margin-top: 40px;
 }
 .flex-comprar-1 {
     background-color: #efefef;
